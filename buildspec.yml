@@ -26,3 +26,6 @@ phases:
 cache:
   paths:
     - '/root/.m2/**/*'
+artifacts:
+  files:
+    - imageDetail.json
