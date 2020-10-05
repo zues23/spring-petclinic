@@ -1,5 +1,5 @@
 {
-  "executionRoleArn": "REPLACE WITH YOUR OWN EXECUTION ROLE ARN (SEE ECSTaskExecutionRole OUTPUT OF CLOUDFORMATION)",
+  "executionRoleArn": "arn:aws:iam::778703276524:role/PetClinicTaskExecutionRoles)",
   "containerDefinitions": [
     {
       "name": "web",
