@@ -1,4 +1,3 @@
-ROM amazoncorretto
 VOLUME /tmp
 ARG JAR_FILE
 ADD ./target/${JAR_FILE} app.jar
