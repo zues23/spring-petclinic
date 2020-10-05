@@ -4,7 +4,7 @@ phases:
   install:
     runtime-versions:
       java: corretto11
-  pre_build: ## New pre-build phase for authentication to ECR with Docker CLI.
+  pre_build: ## New pre-build phase for authentication to ECR with Docker CLI
     commands:
       - echo Logging in to Amazon ECR...
       - $(aws ecr get-login --no-include-email --region $AWS_DEFAULT_REGION)
